@@ -1,23 +1,25 @@
+header#main-header {
+  height: 65px;
+  background-color: green;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-div.feature-container {
-  align-items: center;
+
+li {
+  display: inline-flex;
+  padding: 10px 50px;
+  font-size: 20px;
 }
-header.header {
-  height: 65px;
-  background-color: green;
+
+div#feature-container {
+  display: block;
 }
 
 div.flex-container {
   display: flex;
   align-items: center;
-}
-
-li {
-  display: inline;
-  padding: 10px 50px;
-  font-size: 20px;
 }

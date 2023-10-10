@@ -3,10 +3,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+div.feature-container {
+  align-items: center;
+}
+header.header {
+  height: 65px;
+  background-color: green;
+}
+
+div.flex-container {
+  display: flex;
+  align-items: center;
+}
 
 li {
   display: inline;
   padding: 10px 50px;
   font-size: 20px;
-  font-size: 36px;
 }

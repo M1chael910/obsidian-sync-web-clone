@@ -1,6 +1,15 @@
 header#main-header {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
   height: 65px;
   background-color: green;
+}
+
+body {
+  top: 65px;
+  position: relative;
 }
 
 ul {

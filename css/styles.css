@@ -1,0 +1,46 @@
+/*
+Header Styling*/
+
+header#main-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 65px;
+  background-color: green;
+}
+
+div.header-flex-container {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+
+li.header-item {
+  font-size: 24px;
+}
+
+body {
+  top: 65px;
+  position: relative;
+}
+
+h2#sync-text-header {
+  color: #a78bfa;
+}
+li {
+  display: inline-flex;
+  padding: 10px 50px;
+}
+
+div#feature-container {
+  display: block;
+}
+
+svg {
+  scale: 1.2;
+}
+
+footer {
+  background-color: yellow;
+}

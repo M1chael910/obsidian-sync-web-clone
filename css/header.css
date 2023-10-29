@@ -1,0 +1,39 @@
+header#main-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 65px;
+  background-color: green;
+}
+
+div.header-flex-container {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+
+li.header-item {
+  font-size: 24px;
+}
+
+header > ul {
+  height: 65px;
+}
+
+ul#first-section {
+  padding: 0px;
+}
+
+ul#second-section {
+  padding: 0;
+}
+
+ul#blank-section {
+  padding: 0;
+  width: 300px;
+}
+
+ul#second-section > li {
+  padding: 10px;
+}

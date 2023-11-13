@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,14 +8,14 @@
       content="width=device-width,
     initial-scale=1.0"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/header.css" />
     <title>Obsidian Sync</title>
   </head>
 
-  <body>
+  <body class="theme-dark">
     <header id="main-header">
-      <div class="header-flex-container">
         <ul id="first-section">
           <li id="obsidian-logo-label">
             <svg
@@ -75,32 +75,34 @@
               ></path>
             </svg>
           </li>
-          <li class="header-item">Download</li>
-          <li class="header-item">Pricing</li>
-          <li class="header-item">Sync</li>
-          <li class="header-item">Publish</li>
+          <li>Download</li>
+          <li>Pricing</li>
+          <li>Sync</li>
+          <li>Publish</li>
         </ul>
-        <ul id="blank-section"></ul>
+        <div id="blank-section"></div>
         <ul id="second-section">
           <li class="header-item">Community</li>
           <li class="header-item">Account</li>
         </ul>
-      </div>
     </header>
-    <h2 id="sync-text-header">Sync</h2>
 
-    <h1 style="width: 300px; font-size: 23px">
-      All Your notes, on all your devices.
-    </h1>
+    <section id="sync-header-section"> 
+      <h2 id="sync-text-header">Sync</h2>
 
-    <h3 style="width: 450px">
-      The safe and secure way to synchronize your Obsidian notes across any
-      device and OS.
-    </h3>
+      <h1 style="width: 300px; font-size: 23px">
+        All Your notes, on all your devices.
+      </h1>
 
-    <section id="sync-button-section">
-      <button id="start ">Start Syncing</button>
-      <p>8$ Per Month</p>
+      <h3 style="width: 450px">
+        The safe and secure way to synchronize your Obsidian notes across any
+        device and OS.
+      </h3>
+
+      <div id="sync-button-section">
+        <button id="start ">Start Syncing</button>
+        <p>8$ Per Month</p>
+      </div>
     </section>
 
     <section id="features-section">

@@ -1,38 +1,27 @@
-/*
-Header Styling*/
-
-header#main-header {
-  top: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  height: 65px;
-  background-color: green;
-}
-
-div.header-flex-container {
-  display: flex;
-  align-items: center;
-  height: 65px;
-}
-
-li.header-item {
-  font-size: 24px;
-}
-
 body {
   top: 65px;
   position: relative;
+  background-color: rgba(21, 21,21);
 }
-
 h2#sync-text-header {
   color: #a78bfa;
-}
-li {
-  display: inline-flex;
-  padding: 10px 50px;
+  font-weight: 10;
+  font-size: 20px;
 }
 
+p,h1,h2,h3, div.feature-item { 
+  color: white;
+}
+
+li { 
+  color: white;
+}
+
+
+section#sync-button-section {
+  display:flex;
+  gap: 300px;
+}
 div#feature-container {
   display: block;
 }

@@ -1,7 +1,7 @@
 header#main-header {
   top: 10px;
-  left: 100px;
-  right: 100px;
+  /* left: 200px;
+  right: 200px; */
   height: 65px;
   display: flex;
   position: fixed;
@@ -9,32 +9,42 @@ header#main-header {
   background-color: clear;
 }
 
-svg {
-  scale: 1.3;
-}
-
 ul#first-section {
   text-align: center;
   width: 55%;
   display: flex;
+  gap: 0px;
   padding-left: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
+ul#first-section > li {
+  font-weight: bold;
+}
+
 ul {
   gap: 10;
   display: inline-block;
 }
+
 ul#second-section {
+  display: flex;
   text-align: center;
-  width: 30%;
+  gap: 0px;
+}
+
+li#obsidian-logo-label {
+  padding-top: 4px;
+}
+
+li#obsidian-logo-label > svg {
+  scale: 1.6;
 }
 
 li {
   display: inline-flex;
   padding: 10px 50px;
 }
-
 
 div#blank-section {
   width: 25%;

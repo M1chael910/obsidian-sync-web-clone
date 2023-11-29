@@ -1,25 +1,41 @@
 body {
   top: 65px;
+  padding-right: 5%;
+  padding-left: 5%;
   position: relative;
-  background-color: rgba(21, 21,21);
+  background-color: rgba(21, 21, 21);
 }
+
 h2#sync-text-header {
   color: #a78bfa;
-  font-weight: 10;
-  font-size: 20px;
+  font-weight: lighter;
+  font-size: 50px;
 }
 
-p,h1,h2,h3, div.feature-item { 
+section#sync-header-section {
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+
+h1#all-your-notes {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+p,
+h1,
+h2,
+h3,
+div.feature-item {
   color: white;
 }
 
-li { 
+li {
   color: white;
 }
-
 
 section#sync-button-section {
-  display:flex;
+  display: flex;
   gap: 300px;
 }
 div#feature-container {

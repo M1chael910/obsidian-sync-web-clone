@@ -37,9 +37,6 @@ li#obsidian-logo-label {
   padding-top: 4px;
 }
 
-li#obsidian-logo-label > svg {
-  scale: 1.6;
-}
 
 li {
   display: inline-flex;

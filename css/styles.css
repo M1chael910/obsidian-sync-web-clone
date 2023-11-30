@@ -20,6 +20,9 @@ section#sync-header-section {
 h1#all-your-notes {
   font-weight: bold;
   font-size: 60px;
+  width: 40%;
+  height: 60px;
+  padding-bottom: 50px;
 }
 
 p,
@@ -28,6 +31,11 @@ h2,
 h3,
 div.feature-item {
   color: white;
+}
+
+div#sync-button-section {
+  display: flex;
+  gap: 25px;
 }
 
 li {
@@ -43,7 +51,7 @@ div#feature-container {
 }
 
 svg {
-  scale: 1.2;
+  scale: 1.6;
 }
 
 footer {

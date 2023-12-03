@@ -17,6 +17,10 @@ section#sync-header-section {
   padding-bottom: 250px;
 }
 
+section#sync-header-section > h3 {
+  font-size: 25px;
+}
+
 h1#all-your-notes {
   font-weight: bold;
   font-size: 60px;

@@ -18,7 +18,7 @@ ul#first-section {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-ul#first-section > li {
+ul#second-section > li {
   font-weight: bold;
 }
 
@@ -37,13 +37,12 @@ li#obsidian-logo-label {
   padding-top: 4px;
 }
 
-
 li {
   display: inline-flex;
   padding: 10px 50px;
 }
 
 div#blank-section {
-  width: 25%;
+  width: 20px;
   height: 65px;
 }

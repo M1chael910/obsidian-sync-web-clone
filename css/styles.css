@@ -1,3 +1,61 @@
+/* Header */
+
+header#main-header {
+  top: 10px;
+  height: 65px;
+  display: flex;
+  position: fixed;
+  height: 65px;
+  background-color: clear;
+}
+
+ul#first-section {
+  text-align: center;
+  width: 55%;
+  display: flex;
+  gap: 0px;
+  float: left;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+ul#second-section {
+  display: flex;
+  float: right;
+  gap: 0px;
+}
+
+div#blank-section {
+  height: 65px;
+}
+
+ul#second-section > li {
+  font-weight: bold;
+}
+ul#first-section > li {
+  font-weight: bold;
+}
+
+ul {
+  gap: 10;
+  display: inline-block;
+}
+
+li#obsidian-logo-label {
+  padding-top: 4px;
+}
+
+#sync-button-section {
+  width: 450px;
+  height: 60px;
+}
+
+li {
+  display: inline-flex;
+  padding: 10px 50px;
+}
+
 body {
   top: 65px;
   padding-right: 5%;
@@ -6,15 +64,17 @@ body {
   background-color: rgba(21, 21, 21);
 }
 
-h2#sync-text-header {
-  color: #a78bfa;
-  font-weight: lighter;
-  font-size: 50px;
-}
+/* Sync header section */
 
 section#sync-header-section {
   padding-top: 200px;
   padding-bottom: 250px;
+}
+
+h2#sync-text-header {
+  color: #a78bfa;
+  font-weight: lighter;
+  font-size: 50px;
 }
 
 section#sync-header-section > h3 {
